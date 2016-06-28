@@ -93,7 +93,9 @@ while (1)
 		cin.get();      
 		break;  
 	case 7: //пункт 7 удаление самого левого элемента
+                case 8: cout<<"¬ведите уровень элемента"<<endl;
 			if(!top){   
+                                count_of(top, l, m);
 		cout<<"ƒерева не существует"<<endl;
 		getchar();
 		break;}
@@ -105,6 +107,9 @@ while (1)
 		deleteLeftElement(top);
 		break;       
 	case 8:     //пункт 8 Ц выход      
+	                cin.get();      
+		break;  
+	case 9:     //пункт 7 Ц выход      
 		return 0; 
 	default:     //если неверно введен пункт меню      
 		cout<<"¬ам следует ввести число от 1 до 8"<< endl;      
