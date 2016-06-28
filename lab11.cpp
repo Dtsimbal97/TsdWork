@@ -93,7 +93,7 @@ while (1)
 		cin.get();      
 		break;  
 	case 7: //пункт 7 удаление самого левого элемента
-			if(!top){
+			if(!top){   
 		cout<<"ƒерева не существует"<<endl;
 		getchar();
 		break;}
@@ -103,7 +103,7 @@ while (1)
 		break;
 		}	
 		deleteLeftElement(top);
-		break;
+		break;   
 	case 8:     //пункт 8 Ц выход      
 		return 0; 
 	default:     //если неверно введен пункт меню      
