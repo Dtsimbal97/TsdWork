@@ -29,6 +29,7 @@ int write_file(ofstream &f, node* top);  //запись в файл
 int read_file(const char* filename, node* &top); //чтение из файла 
 zap vvod();      //ввод данных 
 node *poisk_l(node *top);
+node *deleteLeftElement(node *top);
 //-------------------------основная функция------------------------------ 
 int main() {   
 SetConsoleCP(1251);
@@ -91,10 +92,22 @@ while (1)
 		cout<<"Нажмите любую клавишу "<<endl;      
 		cin.get();      
 		break;  
-	case 7:     //пункт 7 – выход      
+	case 7: //пункт 7 удаление самого левого элемента
+			if(!top){
+		cout<<"Дерева не существует"<<endl;
+		getchar();
+		break;}
+		if (top->left==NULL){
+		cout<<"Левого ПД не существует"<<endl;
+		getchar();
+		break;
+		}	
+		deleteLeftElement(top);
+		break;
+	case 8:     //пункт 8 – выход      
 		return 0; 
 	default:     //если неверно введен пункт меню      
-		cout<<"Вам следует ввести число от 1 до 7"<< endl;      
+		cout<<"Вам следует ввести число от 1 до 8"<< endl;      
 		cin.get();      
 		break;  }  }	} 
 	//-------поиск самого левого элемента-------------------------
@@ -102,6 +115,15 @@ while (1)
 		while (top->left)
 		top=top->left;
         return top; }
+        
+    //-------удаление самого левого элемента--------
+    node* deleteLeftElement (node *top){
+    		while (top->left)
+		top=top->left;
+    	delete top;
+    	return top;
+    	
+	}
 	//-----------------------добавление узла в дерево----------------------- 
 	node* addtree(node *top,const zap& newnode)  
 		{ if (!top)       //если находимся на уровне листа,   
@@ -167,13 +189,14 @@ void otobr(node *top, int otstup)
 		cout<<"4- Отобразить структуру дерева"<<endl; 
 		cout<<"5- Поиск самого левого элемента дерева"<<endl;   
 		cout<<"6- Запись данных в файл"<<endl; 
-        cout<<"7- Выход"<<endl;  
+        cout<<"7- Удаление самого левого элемента"<<endl; 
+		cout<<"8- Выход"<<endl ;
 		cout<<"============================"<<endl;     
 		cout<<"Введите номер пункта меню"<<endl;     
 		cin>>buf;      //ввод номера пункта     
 		cin.get();     item=atoi(buf);     //преобразовать его в целое     
 		if (!item)       //если ошибка         
-		{  cout<<"Вам следует ввести число от 1 до 7"<<endl;            
+		{  cout<<"Вам следует ввести число от 1 до 8"<<endl;            
 		cin.get();        } } 
 		while (!item);  //повторять пока не будет введено правильно  
 		return item;  //вернуть номер введенного пункта меню 
