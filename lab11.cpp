@@ -103,7 +103,7 @@ while (1)
 		break;
 		}	
 		deleteLeftElement(top);
-		break;   
+		break;       
 	case 8:     //пункт 8 Ц выход      
 		return 0; 
 	default:     //если неверно введен пункт меню      
