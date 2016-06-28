@@ -118,9 +118,11 @@ while (1)
         
     //-------удаление самого левого элемента--------
     node* deleteLeftElement (node *top){
-    		while (top->left)
+    		while (top->left->left)
 		top=top->left;
-    	delete top;
+		
+		top->left=0;
+	
     	return top;
     	
 	}
