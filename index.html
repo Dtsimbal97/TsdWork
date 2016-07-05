@@ -8,7 +8,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="C:\Users\Admin\Desktop\bootstrap\bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -27,7 +27,7 @@
        
 	
 		 
-    <div class="navbar navbar-inverse">
+    <div class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
@@ -36,14 +36,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a class="navbar-brand" href="#"> Логотип</a>
             </div>
       <div class="collapse navbar-collapse" id="responsive-menu">
             <ul class='nav navbar-nav'>
 		      <li>
                   <a href="#" title="Обо мне">Обо мне</a>
               </li>
-                <li>
-                    <a href="#" title="Мои Знания">Учёба</a>
+                <li class="dropdown">
+                    <a href="#" title="Мои Знания" class="dropdown-toggle" data-toggle="dropdown">Учёба <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Расписание</a></li>
+                        <li><a href="#">Методички</a></li>
+                        <li><a href="#">Полезные ссылки</a></li>
+                    
+                    </ul>
 		
                 </li>
                 <li>
