@@ -1,3 +1,19 @@
+.container-fluid {
+    margin-left: 20px;
+    margin-right: 19px;
+}
+.col-md-9{
+    float: left;
+    background: #2bbbff;
+
+}
+.col-md-3 {
+    float: right;
+    background: #b8ff7b;
+}
+.col-md-12 {
+    background: #3e74b3;
+}
 body {
             background: #f3f2f3;
             color: #000000;
@@ -31,6 +47,10 @@ body {
             height: 400px;
 }
  
+.navbar-fixed-bottom{
+    background: #aeb3b2;
+    mar
+}
 #content {
             background: #d2d0d2;
             float: left;
