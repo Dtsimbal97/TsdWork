@@ -8,7 +8,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -67,27 +67,42 @@
         </div>   
 	</div>
 </div>	 
-	<div id="menu">
-	<h2>Новости</h2>
-	</div>
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <h1>Контент</h1>
+            </div>
+            <div class="col-md-3" >
+                <h2>Новости</h2>
+             </div>
+
+        </div>
+    </div>
+</div>
 		 
-	<div class="container-fluid" >
-	<h2>Контент</h2>
+	<div class="container-fluid"  >
+        <div class="row">
+
+        </div>
 	</div>
 		 
 	<div id="clear">
 		 
 	</div>
 							   
-	<div id="footer">
-	<h2>Подвал сайта</h2>
-	</div>
-</div>
-      </div>
+	<div class="container-fluid">
+        <div class="navbar-fixed-bottom row-fluid">
+            <div class="navbar-inner">
+                <div class="container">
+	                <h2>Подвал сайта</h2>
+	            </div>
+            </div>
+        </div>
+     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

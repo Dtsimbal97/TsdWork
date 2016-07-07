@@ -1,0 +1,9 @@
+{
+  "name": "tsd-wirj",
+  "description": "description",
+  "dependencies": {
+    "bootstrap": "*"
+  },
+  "devDependencies": {
+  }
+}
