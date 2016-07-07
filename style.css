@@ -5,11 +5,13 @@
 .col-md-9{
     float: left;
     background: #2bbbff;
+    height: 2000px;
 
 }
 .col-md-3 {
     float: right;
     background: #b8ff7b;
+    height: 2000px;
 }
 .col-md-12 {
     background: #3e74b3;
