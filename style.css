@@ -1,15 +1,67 @@
+.bor {
+    border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    margin-left: 10px;
+}
+.thumb img  {
+    border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+
+}
+h2{
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+}
+.item{
+    background: #333;
+    text-align: center;
+    height: 600px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.col-sm-2 {
+    align:left ;
+}
+.prokrutkaver {
+     height:600px; /* высота нашего блока */
+     width: 350px;
+     background: #618db3; /* цвет фона, белый */
+     border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow-y:  scroll; /* прокрутка по вертикали */
+    
+ }
+
+.prokrutkahor {
+    margin-top: 100px;
+    height:200px; /* высота нашего блока */
+    background: #618db3; /* цвет фона, белый */
+    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow-x: scroll; /* прокрутка по горизонтали  */
+    overflow-y: hidden;
+}
+
 .container-fluid {
     margin-left: 20px;
     margin-right: 19px;
 }
-.col-md-9{
-    float: left;
+.col-md-6{
+
     background: #2bbbff;
     height: 2000px;
 
 }
 .col-md-3 {
-    float: right;
+
     background: #b8ff7b;
     height: 2000px;
 }
