@@ -16,7 +16,7 @@
 }
 h2{
     margin: 0;
-    color: #666;
+    color: #861e0f;
     padding-top: 90px;
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;
@@ -35,7 +35,7 @@ h2{
 .prokrutkaver {
      height:600px; /* высота нашего блока */
      width: 350px;
-     background: #618db3; /* цвет фона, белый */
+     background: #81867d; /* цвет фона, белый */
      border: 1px solid #C1C1C1; /* размер и цвет границы блока */
     overflow-y:  scroll; /* прокрутка по вертикали */
     
@@ -44,7 +44,7 @@ h2{
 .prokrutkahor {
     margin-top: 100px;
     height:200px; /* высота нашего блока */
-    background: #618db3; /* цвет фона, белый */
+    background: #81867d; /* цвет фона, белый */
     border: 1px solid #C1C1C1; /* размер и цвет границы блока */
     overflow-x: scroll; /* прокрутка по горизонтали  */
     overflow-y: hidden;
@@ -56,27 +56,27 @@ h2{
 }
 .col-md-6{
 
-    background: #2bbbff;
+    background: #81867d;
     height: 2000px;
 
 }
 .col-md-3 {
 
-    background: #b8ff7b;
+    background: #81867d;
     height: 2000px;
 }
 .col-md-12 {
-    background: #3e74b3;
+    background: #81867d;
 }
 body {
-            background: #f3f2f3;
+            background: #81867d;
             color: #000000;
             font-family: Trebuchet MS, Arial, Times New Roman;
             font-size: 12px;
 }
  
 #container {
-            background:#ааа;
+            background: #81867d;
             margin: 0 auto;
             width: 1000px;
             height: 600px;
