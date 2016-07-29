@@ -1,82 +1,131 @@
-.bor {
-    border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
-    padding: 10px; /* Расстояние от картинки до рамки */
-    background: #666; /* Цвет фона */
-    margin-right: 10px; /* Отступ справа */
-    margin-bottom: 10px; /* Отступ снизу */
-    margin-left: 10px;
+.pager {
+    float: left;
 }
-.thumb img  {
-    border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
-    padding: 10px; /* Расстояние от картинки до рамки */
-    background: #666; /* Цвет фона */
-    margin-right: 10px; /* Отступ справа */
-    margin-bottom: 10px; /* Отступ снизу */
+.navbar-inner{
+    background: lightgoldenrodyellow;
+}
+.h4 {
+   float: left;
 
 }
-h2{
+.navbar-fixed-bottom {
+    height: 35px;
+}
+
+.bor {
+    /* Рамка вокруг фотографии */
+      background: lightgoldenrodyellow; /* Цвет фона */
+    margin-right: 5px; /* Отступ справа */
+    /* Отступ снизу */
+    margin-top: 62px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.thumb img  {
+     /* Рамка вокруг фотографии */
+    /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 5px; /* Отступ справа */
+     /* Отступ снизу */
+    margin-top: 68px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 50px;
+
+}
+.navbar-form.navbar-left {
+    float: right;
+   padding-left: 20px;
+
+}
+.form-group{
+    margin-left: 511px;
+}
+.h2{
     margin: 0;
-    color: #861e0f;
+    color: #666;
     padding-top: 90px;
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;
 }
 .item{
-    background: #333;
+    background: lightgoldenrodyellow);
     text-align: center;
     height: 600px !important;
 }
+.slider {
+    height: 550px;
+    width: 650px;
+}
+.navbar-fixed-top {
+    background: lightgoldenrodyellow;
+}
+.dropdown-toggle{
+    color: #00b3ee;
+}
 .carousel{
     margin-top: 20px;
+    width: 650px;
 }
 .col-sm-2 {
     align:left ;
+
 }
+
 .prokrutkaver {
      height:600px; /* высота нашего блока */
-     width: 350px;
-     background: #81867d; /* цвет фона, белый */
-     border: 1px solid #C1C1C1; /* размер и цвет границы блока */
-    overflow-y:  scroll; /* прокрутка по вертикали */
+     width: 300px;
+     background: lightgoldenrodyellow; /* цвет фона, белый */
+     border: 1px solid #C1C1C1;
+     overflow-y: auto;
+   float: left;
+    margin-top: 80px;
+    padding-right: 10px;
+    padding-left: 50px;
+    /* прокрутка по вертикали*/
     
  }
+.thumbnail{
+    width: 200px;
+    height: 200px;
 
-.prokrutkahor {
-    margin-top: 100px;
-    height:200px; /* высота нашего блока */
-    background: #81867d; /* цвет фона, белый */
-    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
-    overflow-x: scroll; /* прокрутка по горизонтали  */
-    overflow-y: hidden;
 }
+.prokrutkahor {
+    margin-top: 80px;
+    height:150px;
+    width: 700px;
+        background: lightgoldenrodyellow; /* цвет фона, белый */
+    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow-x: auto;
 
+    overflow-y: hidden;
+    /* прокрутка по горизонтали  */
+
+}
+.list-inline {
+    width: 1308px;
+   ;
+
+}
+.col-md-5{
+    width: 200px;
+    margin-left: 15px;
+}
 .container-fluid {
     margin-left: 20px;
     margin-right: 19px;
 }
-.col-md-6{
-
-    background: #81867d;
-    height: 2000px;
-
-}
-.col-md-3 {
-
-    background: #81867d;
-    height: 2000px;
-}
-.col-md-12 {
-    background: #81867d;
-}
 body {
-            background: #81867d;
-            color: #000000;
+            background: lightgoldenrodyellow;
+            color:#00b3ee;
             font-family: Trebuchet MS, Arial, Times New Roman;
             font-size: 12px;
 }
  
 #container {
-            background: #81867d;
+            background: rgba(161, 171, 152, 0.54);
             margin: 0 auto;
             width: 1000px;
             height: 600px;
